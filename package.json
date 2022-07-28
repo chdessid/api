@@ -1,0 +1,67 @@
+{
+  "name": "api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@chartbrew/plugin-strapi": "^0.3.0",
+    "@emotion/is-prop-valid": "^1.1.3",
+    "@strapi-newsletter/strapi": "^0.1.2",
+    "@strapi/design-system": "^1.2.1-beta.0",
+    "@strapi/helper-plugin": "^4.3.0",
+    "@strapi/icons": "^1.2.1-beta.0",
+    "@strapi/plugin-graphql": "^4.3.0",
+    "@strapi/plugin-i18n": "4.3.0",
+    "@strapi/plugin-users-permissions": "4.3.0",
+    "@strapi/strapi": "4.3.0",
+    "moment": "^2.29.4",
+    "pg": "^8.7.3",
+    "strapi-google-auth": "^0.1.2",
+    "strapi-plugin-config-sync": "^1.0.2",
+    "strapi-plugin-custom-api": "^1.0.3",
+    "strapi-plugin-deepl": "^0.3.7",
+    "strapi-plugin-duplicate-button": "^1.0.4",
+    "strapi-plugin-entity-relationship-chart": "^4.1.0",
+    "strapi-plugin-fast-content": "^0.0.4",
+    "strapi-plugin-generate-data": "^1.0.11",
+    "strapi-plugin-generate-schema": "^0.0.1",
+    "strapi-plugin-graphs-builder": "^1.0.0",
+    "strapi-plugin-import-export-entries": "^1.6.9",
+    "strapi-plugin-measurement-protocol": "^1.0.1",
+    "strapi-plugin-meilisearch": "^0.7.1",
+    "strapi-plugin-migrations": "^1.0.4",
+    "strapi-plugin-navigation": "^2.2.0",
+    "strapi-plugin-notes": "^1.0.1",
+    "strapi-plugin-placeholder": "^4.1.7",
+    "strapi-plugin-populate-deep": "^0.1.2",
+    "strapi-plugin-preview-button": "^0.3.4",
+    "strapi-plugin-publisher": "^1.1.3",
+    "strapi-plugin-random-sort": "^0.0.3",
+    "strapi-plugin-rest-cache": "^4.2.4",
+    "strapi-plugin-sitemap": "^2.0.8",
+    "strapi-plugin-slugify": "^2.2.2",
+    "strapi-plugin-todo": "^0.0.9",
+    "strapi-plugin-transformer": "^2.0.2",
+    "strapi-prometheus": "^0.6.2",
+    "strapi-provider-rest-cache-memory": "^4.2.4",
+    "styled-components": "^5.3.5"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "ec9b74ba-2134-44cd-8f44-7d7e7ec0fd9b"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
